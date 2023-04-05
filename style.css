@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: aqua;
+}
+
+.attribution a {
+    color: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Overpass';
+    background-color: hsl(216, 12%, 8%);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 41px 32px 32px;
+    height: 25rem;
+    width: 25rem;
+    background-color: rgb(37 45 55 / 64%);
+    border-radius: 2rem;
+}
+
+
+.star img {
+    padding: 0.8rem;
+    border-radius: 50%;
+    background-color: hsl(213deg 25.62% 21.69%);
+
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.btn-rate {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rate {
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    background-color: hsl(213deg 25.62% 21.69%);
+    color: hsl(217, 12%, 63%);
+    border: none;
+}
+
+.rate:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.rate:focus {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.6rem;
+    gap: 1.7rem;
+
+}
+
+.submit {
+    border-radius: 3rem;
+    height: 3rem;
+    background-color: hsl(29, 97%, 53%);
+    color: white;
+    /* font-weight: 600; */
+    border: none;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: white;
+    color: hsl(29, 97%, 53%);
+}
+
+/* .submit:focus {
+    background-color: white;
+    color: hsl(29, 97%, 53%);
+} */
+
+p {
+    color: hsl(217, 12%, 63%);
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+}
+
+.thank h1 {
+    text-align: center;
+}
+
+.thank-image {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 1rem;
+    gap: 1.5rem;
+}
+
+.thank img {
+    height: 7rem;
+    width: 10rem;
+}
+
+.rate-para {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(43 52 63);
+    border-radius: 0.8rem;
+    width: 12rem;
+}
+
+.rate-para p{
+    color: hsl(29, 97%, 53%);
+}
+.thank{
+    gap: 1rem;
+    text-align: center;
+}
+
+
+.visibility{
+    display: none;
+}
